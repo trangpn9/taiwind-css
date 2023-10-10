@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .require {
+        @apply after:content-['*'] block after:h-4 after:w-4 after:inline-block after:text-red-700 after:ml
+    }
+}
